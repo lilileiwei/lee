@@ -1,0 +1,149 @@
+body{
+    background-image: url("../img/background7.jpg");
+}
+#addr{
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 15px;
+    background: #fff2cc;
+
+}
+#user-info{
+    width: 50%;
+    float: left;
+    display: flex;
+}
+#user-info span{
+    display: inline-block;
+    flex: 1;
+
+}
+#address{
+    width: 50%;
+    float: right;
+}
+#scroll{
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    height: 10px;
+    background: url("../img/scroll2.jpg") repeat;
+}
+@media (max-width: 750px) {
+    #addr{
+        font-size: 14px;
+
+    }
+    #user-info{
+        width: 100%;
+        display: flex;
+    }
+    #user-info span{
+        display: inline-block;
+        flex: 1;
+
+    }
+    #address{
+        width: 100%;
+    }
+
+}
+/*order css start*/
+#order{
+    width: 90%;
+    margin: 0 auto;
+}
+.order-info{
+    width: 100%;
+}
+.order-nav{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: orange;
+    line-height: 50px;
+}
+.order-text{
+    width: 100%;
+    display: -webkit-box;
+}
+.order-text-left{
+    width: 400px;
+}
+.order-text-left img{
+    width: 400px;
+    height: 200px;
+}
+.order-text-moddle{
+    background: #f0f6f7;
+    -webkit-box-flex: 3;
+}
+.order-text-moddle strong{
+    font-size: 20px;
+}
+.order-text-right{
+    background: #f0f6f7;
+    -webkit-box-flex: 1;
+    text-align: right;
+}
+.order-text-right strong{
+    color: red;
+    font-size: 20px;
+}
+#bargin{
+    width: 90%;
+    margin: 10px auto;
+
+}
+#order-fot{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+
+    /*background: #fffaec;*/
+}
+#order-fot span{
+    color: #fff;
+}
+#order-fot #order-cash{
+    color: orange;
+}
+#order-fot .sub{
+    display: inline-block;
+    background: orange;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    /*border-radius: 10px;*/
+}
+
+
+
+
+@media (max-width:750px ) {
+    .order-nav{
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .order-text-left{
+        width: 100px;
+    }
+    .order-text-left img{
+        width: 100px;
+        height: 100px;
+    }
+    .order-text-moddle strong{
+        font-size: 14px;
+    }
+    .order-text-moddle h4{
+        font-size: 10px;
+    }
+    .order-text-right strong{
+        font-size: 14px;
+    }
+    .order-text-right h3{
+        font-size: 10px;
+    }
+}
